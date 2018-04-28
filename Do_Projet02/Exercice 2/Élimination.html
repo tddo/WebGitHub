@@ -1,0 +1,47 @@
+<!DOCTYPE HTML>
+<!-- Commentaire -->
+<html>
+<head>
+	<title>L'informatique, &ccedil;a pollue!</title>
+	<meta charset="utf-8"/ name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="all" type="text/css" href="../css/monStyle2.css" >
+	<script type="text/javascript" src="../librairie/DOTD.js"></script>
+	<script type="text/javascript">
+	function initier(){
+		var url = window.location.pathname;
+		var filename = url.substring(url.lastIndexOf('/')+1);
+		afficherEnTete(filename);
+		afficherNavigation(filename);
+		afficherPiedPage();
+	}
+	</script>
+</head>
+<body onload="initier();">
+	<header id="entete"></header>
+	<nav id="navigation"></nav>
+	<section>
+		<article>
+			<p>
+				La dur&eacute;e de vie d'un ordinateur est courte. En 2003, cette dur&eacute;e &eacute;tait estim&eacute;es &agrave; 3,5 ans au Canada. Encore aujourd'hui, la majorit&eacute; des ordinateurs d&eacute;suets se retrouvent dans les d&eacute;chets plut&ocirc;t que d'&ecirc;tre recycl&eacute;s.
+			</p>
+			<p>
+				Selon une &eacute;tude<a href="#quote" style="text-decoration:none; color:black;"><sup>2</sup></a> publi&eacute;e en 2005, plus de 99 000 tonnes de d&eacute;chet de mat&eacute;riels informatiques et de t&eacute;l&eacute;communications ont &eacute;t&eacute; produits au Canada. En 2005, seul 25 % des &eacute;quipements d&eacute;suets &eacute;taient recycl&eacute;s. Le reste des d&eacute;chets TIC (75%) se sont retrouv&eacute;s dans la nature dont une partie a &eacute;t&eacute; export&eacute;e en Inde et en Chine. Un ordinateur contient plusieurs substances toxiques comme le plomb, le cadmium, le b&eacute;ryllium et le mercure.
+			</p>
+			<p>
+				Dans un Coll&egrave;ge &laquo; vert &raquo; comme le n&ocirc;tre, quelques questions doivent &ecirc;tre pos&eacute;es. Est-ce que le Service informatique dispose des &eacute;quipements d&eacute;suets correctement? Sommes-nous certains que les vieux ordinateurs du Coll&egrave;ge ne se retrouvent pas dans des d&eacute;potoirs en Inde ou en Chine? En effet, dans ces pays, la main d'oeuvre est tr&egrave;s bon march&eacute; (peut-&ecirc;tre m&ecirc;me des enfants) et les r&egrave;gles environnementales y sont tr&egrave;s peu respect&eacute;es.
+			</p>
+			<p>
+				<hr align=left width=25% size="1" noshade />
+			</p>
+		</article>
+		<article>
+			<p>
+				<blockquote id=quote>
+					2 Ris International Ltd., <em>Information Technology (IT) and Telecommunication Waste in Canada.</em>
+				</blockquote>
+			</p>
+		</article>
+	</section>
+	<footer id="piedPage"></footer>
+</body>
+</html>

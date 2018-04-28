@@ -1,0 +1,45 @@
+<!DOCTYPE HTML>
+<!-- Commentaire -->
+<html>
+<head>
+	<title>L'informatique, &ccedil;a pollue!</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="all" type="text/css" href="../css/monStyle1.css" >
+	<script type="text/javascript" src="../librairie/DOTD.js"></script>
+	<script type="text/javascript">
+	function initier(){
+		var url = window.location.pathname;
+		var filename = url.substring(url.lastIndexOf('/')+1);
+		afficherEnTete(filename);
+		afficherNavigation(filename);
+		afficherPiedPage();
+	}
+	</script>
+</head>
+<body onload="initier();">
+	<header id="entete"></header>
+	<nav id="navigation"></nav>
+	<section>
+		<article>
+			<p>
+				Les ordinateurs, les jeux vid&eacute;os, les t&eacute;l&eacute;phones cellulaires et
+les autres technologies de l'information et des communications (TIC) sont des outils de
+travail et de loisir incontournables et comme les probl&egrave;mes environnementaux
+nous pr&eacute;occupent de plus en plus, l'utilisation des TIC est souvent per&ccedil;
+ue comme une solution &agrave; certains probl&egrave;mes environnementaux
+			</p>
+			<p>
+				Qu'en est-il vraiment?
+			</p>
+		</article>
+		<div w3-include-html="test.html"></div>
+
+		<article>
+			<iframe width="640" height="360"
+			src="https://www.youtube.com/embed/za-IAaMiHkw" allowfullscreen >
+		</iframe>
+	</article>
+</section>
+<footer id="piedPage"></footer>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<!-- Commentaire -->
+<html>
+<head>
+	<title>L'informatique, &ccedil;a pollue!</title>
+	<meta charset="utf-8"/ name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="all" type="text/css" href="../css/monStyle2.css" >
+	<script type="text/javascript" src="../librairie/DOTD.js"></script>
+	<script type="text/javascript">
+		function initier(){
+			var url = window.location.pathname;
+			var filename = url.substring(url.lastIndexOf('/')+1);
+			afficherEnTete(filename);
+			afficherNavigation(filename);
+			afficherPiedPage();
+		}
+	</script>
+	</head>
+	<body onload="initier();">
+	<header id="entete"></header>
+	<nav id="navigation"></nav>
+	<section>
+		<article>
+		<p>
+			Selon une &eacute;tude publi&eacute;e par l'Universit&eacute; des Nations Unies<a href="#quote" style="text-decoration:none; color:black;"><sup>1</sup></a>, la fabrication d'un ordinateur et de son &eacute;cran n&eacute;cessite 240 kg de combustibles fossiles, 22 kg de produits chimiques et une tonne et demie d'eau. Selon cette analyse, 80 % de l'&eacute;nergie utilis&eacute;e par un ordinateur l'est au moment de sa fabrication. Pour fabriquer une barrette de m&eacute;moire, il faut 1,7 kg d'&eacute;nergie fossile, 1m<sup>3</sup> d'azote, 72 g de produits chimiques et 32 litres d'eau.
+		</p>
+		</article>
+		<article>
+		<p>
+			<blockquote id=quote>
+				1 Ruediger Kuehr et Eric Williams, 2004. <em>Computers and the Environment: Understanding and Managing their impacts.</em>
+			</blockquote>
+		</p>
+		</article>
+	</section>
+	<footer id="piedPage"></footer>
+	</body>
+	</html>

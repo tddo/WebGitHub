@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<!-- Commentaire -->
+<html>
+<head>
+	<title>L'informatique, &ccedil;a pollue!</title>
+	<meta charset="utf-8"/ name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="all" type="text/css" href="../css/monStyle2.css" >
+	<script type="text/javascript" src="../librairie/DOTD.js"></script>
+	<script type="text/javascript">
+		function initier(){
+			var url = window.location.pathname;
+			var filename = url.substring(url.lastIndexOf('/')+1);
+			afficherEnTete(filename);
+			afficherNavigation(filename);
+			afficherPiedPage();
+		}
+	</script>
+	</head>
+	<body onload="initier();">
+	<header id="entete"></header>
+	<nav id="navigation"></nav>
+	<section>
+		<article>
+		<p>
+			Peu de donn&eacute;es canadiennes sont disponibles sur la consommation &eacute;nerg&eacute;tique des TIC. En France, le Minist&egrave;re de l'&eacute;cologie a publi&eacute; un rapport sur la consommation &eacute;nerg&eacute;tique des TIC. Les TIC fran&ccedil;aises consomment l'&eacute;quivalent de huit centrales &eacute;lectriques de 55 &agrave; 60 t&eacute;rawattheures, soit 13 % de la consommation totale du pays. Seulement pour la France, les TIC ont une empreinte carbone qui s'&eacute;l&egrave;verait &agrave; 30 millions de tonnes de CO<sub>2</sub> par an.
+		</p>
+		<p>
+			Ajouter une petite image ou un petit texte, &agrave; la fin d'un courriel, demandant de ne pas imprimer celui-ci... &Ccedil;A POLLUE! Les cha&icirc;nes de courriels pour transmettre des &laquo; jokes &raquo; et des photos... &Ccedil;A POLLUE! L'utilisation abusive du courriel par les diff&eacute;rentes directions et les diff&eacute;rents services du Coll&egrave;ge... &Ccedil;A POLLUE!
+		</p>
+		</article>
+	</section>
+	<footer id="piedPage"></footer>
+	</body>
+</html>

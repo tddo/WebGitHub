@@ -1,0 +1,34 @@
+<!DOCTYPE HTML>
+<!-- Commentaire -->
+<html>
+<head>
+	<title>L'informatique, &ccedil;a pollue!</title>
+	<meta charset="utf-8"/ name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" media="all" type="text/css" href="../css/monStyle2.css" >
+	<script type="text/javascript" src="../librairie/DOTD.js"></script>
+	<script type="text/javascript">
+		function initier(){
+			var url = window.location.pathname;
+			var filename = url.substring(url.lastIndexOf('/')+1);
+			afficherEnTete(filename);
+			afficherNavigation(filename);
+			afficherPiedPage();
+		}
+	</script>
+	</head>
+	<body onload="initier();">
+	<header id="entete"></header>
+	<nav id="navigation"></nav>
+	<section>
+		<article>
+		<p>
+			L'utilisation des TIC comme solution &agrave; certains probl&egrave;mes environnementaux n'est peut-&ecirc;tre pas LA solution. L'utilisation du papier comme moyen de transmission de l'information est-ce moins &laquo; &eacute;colo &raquo; que les TIC? Apr&egrave;s-tout, les arbres sont des ressources renouvelables si l'exploitation des for&ecirc;ts est bien g&eacute;r&eacute;e et le papier reste biod&eacute;gradable.
+		</p>
+		<p>
+			Avant de faire pression sur les enseignants, pour qu'ils int&egrave;grent de fa&ccedil;on massive les TIC dans leur enseignement et leurs t&acirc;ches connexes, le Coll&egrave;ge devrait d'abord faire des &eacute;tudes sur les impacts sur la pollution caus&eacute;e par les ordinateurs.
+		</p>
+		</article>
+	</section>
+	<footer id="piedPage"></footer>
+	</body>
+	</html>

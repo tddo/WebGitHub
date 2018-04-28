@@ -1,0 +1,238 @@
+<!DOCTYPE HTML>
+<!-- Commentaire -->
+<html>
+<head>
+	<title>L'informatique, &ccedil;a pollue!</title>
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../css/monStyle3/ui.unsupported.css" />
+	<link rel="stylesheet" type="text/css" href="../css/monStyle3/pages.styles.css" />
+	<link rel="stylesheet" type="text/css" href="../css/monStyle3/ui.webkit.css" />
+	<link rel="stylesheet" type="text/css" href="../css/monStyle3/ui.edge.css" />
+	<link rel="stylesheet" type="text/css" href="../css/monStyle3/ui.ie.css" />
+	<link rel="stylesheet" type="text/css" href="../css/monStyle3/pages.layout.css" />
+	<link rel="stylesheet" type="text/css" href="../css/monStyle3/page.gallery.css" />
+	<link rel="stylesheet" type="text/css" href="../css/monStyle3/keyboard.css" />
+</head>
+<body>
+
+	<input type="checkbox" id="menuChk" name="menuChk" aria-hidden="true" />
+
+	<!--  desktop menu targets proxy-anchors -->
+	<nav class="menu desktop" id="menu" aria-hidden="true">
+		<label for="menuChk" class="menuCloseBtn" aria-label="Toggle Menu Visibility">&times;</label>
+		<h3>Menu:</h3>
+		<ul>
+			<li><a href="#p1">Page principale</a></li>
+			<li><a href="#p2">À propos</a></li>
+			<li><a href="#p3">Fabrication d'un ordinateur</a></li>
+			<li><a href="#p4">Utilisation d'un ordinateur</a></li>
+			<li><a href="#p5">&Eacute;limination d'un ordinateur d&eacute;suet</a></li>
+			<li><a href="#p6">Est-ce LA solution?</a></li>
+		</ul>
+	</nav>
+
+	<!--  mobile menu controls -->
+	<div class="menu-control-mobile" id="menu-control" aria-hidden="true">
+		<label for="menuChk" class="menuCtrlButton" aria-label="Toggle Menu Visibility">&#9776;</label>
+	</div>
+
+	<!--  mobile menu targets layout ids as anchors -->
+	<div class="menu mobile" id="menuMobile" aria-hidden="true">
+		<label for="menuChk" class="menuCloseBtn" aria-label="Toggle Menu Visibility">&times;</label>
+		<h3>Menu:</h3>
+		<nav role="navigation">
+			<ul>
+				<li><a href="#item1">Page principale</a></li>
+				<li><a href="#item2">À propos</a></li>
+				<li><a href="#item3">Fabrication d'un ordinateur</a></li>
+				<li><a href="#item4">Utilisation d'un ordinateur</a></li>
+				<li><a href="#item5">&Eacute;limination d'un ordinateur d&eacute;suet</a></li>
+				<li><a href="#item6">Est-ce LA solution?</a></li>
+			</ul>
+		</nav>
+	</div>
+
+	<div class="wrapper">
+		<!-- Proxy anchors associate with layout ids in CSS. Transforms applied to scroll pages to view in desktop mode-->
+		<div class="proxy-anchor" id="p1" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p2" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p3" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p4" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p5" aria-hidden="true"></div>
+		<div class="proxy-anchor" id="p6" aria-hidden="true"></div>
+		<!--/ Proxy anchors -->
+
+		<div class="grid">
+
+			<section class="item" id="item1">
+				<a href="#p1" class="focus-page" tabindex="-1" aria-hidden="true">focus</a><label class="selected-closer" for="menuChk" aria-hidden="true">&nbsp;</label>
+				<aside id="image1" class="image">
+					<figure class="image-container"><img src="../img/pollution2.png" alt="pollution2"></figure>
+				</aside>
+				<article id="page1" class="layout home">
+					<nav class="navbar">
+						<label for="menuChk" class="menuBtn" aria-label="Toggle Menu Visibility" aria-hidden="true">&#9776;</label>
+					</nav>
+					<main class="content">
+						<h1 class="huge">L'informatique</h1>
+						<h1 class="huge">&ccedil;a pollue!</h1>
+					</main>
+					<nav class="sidebar">
+						<a href="#p2" class="next-page" tabindex="-1" aria-hidden="true">Next</a>
+					</nav>
+				</article>
+			</section>
+
+			<section class="item" id="item2">
+				<a href="#p2" class="focus-page" tabindex="-1" aria-hidden="true">focus</a><label class="selected-closer" for="menuChk" aria-hidden="true">&nbsp;</label>
+				<aside id="image2" class="image">
+					<figure class="image-container"><img src="../img/courriel1.png" alt="courriel1"></figure>
+				</aside>
+				<article id="page2" class="layout">
+					<nav class="navbar">
+						<label for="menuChk" class="menuBtn" aria-label="Toggle Menu Visibility" aria-hidden="true">&#9776;</label>
+					</nav>
+					<main class="content">
+						<article>
+							<p>
+								Les ordinateurs, les jeux vid&eacute;os, les t&eacute;l&eacute;phones cellulaires et
+								les autres technologies de l'information et des communications (TIC) sont des outils de
+								travail et de loisir incontournables et comme les probl&egrave;mes environnementaux
+								nous pr&eacute;occupent de plus en plus, l'utilisation des TIC est souvent per&ccedil;
+								ue comme une solution &agrave; certains probl&egrave;mes environnementaux
+							</p>
+							<p>
+								Qu'en est-il vraiment?
+							</p>
+						</article>
+						<figure class="videoWrapper">
+							<iframe
+							src="https://www.youtube.com/embed/za-IAaMiHkw" allowfullscreen >
+						</iframe>
+					</figure>
+				</main>
+				<nav class="sidebar">
+					<a href="#p3" class="next-page" tabindex="-1" aria-hidden="true">Next</a>
+				</aside>
+			</article>
+		</section>
+
+		<section class="item" id="item3">
+			<a href="#p3" class="focus-page" tabindex="-1" aria-hidden="true">focus</a><label class="selected-closer" for="menuChk" aria-hidden="true">&nbsp;</label>
+			<aside id="image3" class="image">
+				<figure class="image-container"><img src="../img/abstrait2.png" alt="abstrait2"></figure>
+			</aside>
+			<article id="page3" class="layout">
+				<nav class="navbar">
+					<label for="menuChk" class="menuBtn" aria-label="Toggle Menu Visibility" aria-hidden="true">&#9776;</label>
+				</nav>
+				<main class="content">
+					<article>
+						<p>
+							Selon une &eacute;tude publi&eacute;e par l'Universit&eacute; des Nations Unies<a href="#quote" style="text-decoration:none; color:black;"><sup>1</sup></a>, la fabrication d'un ordinateur et de son &eacute;cran n&eacute;cessite 240 kg de combustibles fossiles, 22 kg de produits chimiques et une tonne et demie d'eau. Selon cette analyse, 80 % de l'&eacute;nergie utilis&eacute;e par un ordinateur l'est au moment de sa fabrication. Pour fabriquer une barrette de m&eacute;moire, il faut 1,7 kg d'&eacute;nergie fossile, 1m<sup>3</sup> d'azote, 72 g de produits chimiques et 32 litres d'eau.
+						</p>
+						<blockquote id=quote>
+							1 Ruediger Kuehr et Eric Williams, 2004. <em>Computers and the Environment: Understanding and Managing their impacts.</em>
+						</blockquote>
+					</article>
+				</main>
+				<nav class="sidebar">
+					<a href="#p4" class="next-page" tabindex="-1" aria-hidden="true">Next</a>
+				</nav>
+			</article>
+		</section>
+
+		<section class="item" id="item4">
+			<a href="#p4" class="focus-page" tabindex="-1" aria-hidden="true">focus</a><label class="selected-closer" for="menuChk" aria-hidden="true">&nbsp;</label>
+			<aside id="image4" class="image left">
+				<figure class="image-container"><img src="../img/courriel2.png" alt="courriel2"></figure>
+			</aside>
+			<article id="page4" class="layout left">
+				<nav class="navbar">
+					<label for="menuChk" class="menuBtn" aria-label="Toggle Menu Visibility" aria-hidden="true">&#9776;</label>
+				</nav>
+				<main class="content">
+					<article>
+						<p>
+							Peu de donn&eacute;es canadiennes sont disponibles sur la consommation &eacute;nerg&eacute;tique des TIC. En France, le Minist&egrave;re de l'&eacute;cologie a publi&eacute; un rapport sur la consommation &eacute;nerg&eacute;tique des TIC. Les TIC fran&ccedil;aises consomment l'&eacute;quivalent de huit centrales &eacute;lectriques de 55 &agrave; 60 t&eacute;rawattheures, soit 13 % de la consommation totale du pays. Seulement pour la France, les TIC ont une empreinte carbone qui s'&eacute;l&egrave;verait &agrave; 30 millions de tonnes de CO<sub>2</sub> par an.
+						</p>
+						<p>
+							Ajouter une petite image ou un petit texte, &agrave; la fin d'un courriel, demandant de ne pas imprimer celui-ci... &Ccedil;A POLLUE! Les cha&icirc;nes de courriels pour transmettre des &laquo; jokes &raquo; et des photos... &Ccedil;A POLLUE! L'utilisation abusive du courriel par les diff&eacute;rentes directions et les diff&eacute;rents services du Coll&egrave;ge... &Ccedil;A POLLUE!
+						</p>
+					</article>
+				</main>
+				<nav class="sidebar">
+					<a href="#p5" class="next-page" tabindex="-1" aria-hidden="true">Next</a>
+				</nav>
+			</article>
+		</section>
+
+		<section class="item" id="item5">
+			<a href="#p5" class="focus-page" tabindex="-1" aria-hidden="true">focus</a><label class="selected-closer" for="menuChk" aria-hidden="true">&nbsp;</label>
+			<aside id="image5" class="image">
+				<figure class="image-container"><img src="../img/programmation.png" alt="programmation"></figure>
+			</aside>
+			<article id="page5" class="layout">
+				<nav class="navbar">
+					<label for="menuChk" class="menuBtn" aria-label="Toggle Menu Visibility" aria-hidden="true">&#9776;</label>
+				</nav>
+				<main class="content smallerText">
+					<article>
+						<p>
+							La dur&eacute;e de vie d'un ordinateur est courte. En 2003, cette dur&eacute;e &eacute;tait estim&eacute;es &agrave; 3,5 ans au Canada. Encore aujourd'hui, la majorit&eacute; des ordinateurs d&eacute;suets se retrouvent dans les d&eacute;chets plut&ocirc;t que d'&ecirc;tre recycl&eacute;s.
+						</p>
+						<p>
+							Selon une &eacute;tude<a href="#quote" style="text-decoration:none; color:black;"><sup>2</sup></a> publi&eacute;e en 2005, plus de 99 000 tonnes de d&eacute;chet de mat&eacute;riels informatiques et de t&eacute;l&eacute;communications ont &eacute;t&eacute; produits au Canada. En 2005, seul 25 % des &eacute;quipements d&eacute;suets &eacute;taient recycl&eacute;s. Le reste des d&eacute;chets TIC (75%) se sont retrouv&eacute;s dans la nature dont une partie a &eacute;t&eacute; export&eacute;e en Inde et en Chine. Un ordinateur contient plusieurs substances toxiques comme le plomb, le cadmium, le b&eacute;ryllium et le mercure.
+						</p>
+						<p>
+							Dans un Coll&egrave;ge &laquo; vert &raquo; comme le n&ocirc;tre, quelques questions doivent &ecirc;tre pos&eacute;es. Est-ce que le Service informatique dispose des &eacute;quipements d&eacute;suets correctement? Sommes-nous certains que les vieux ordinateurs du Coll&egrave;ge ne se retrouvent pas dans des d&eacute;potoirs en Inde ou en Chine? En effet, dans ces pays, la main d'oeuvre est tr&egrave;s bon march&eacute; (peut-&ecirc;tre m&ecirc;me des enfants) et les r&egrave;gles environnementales y sont tr&egrave;s peu respect&eacute;es.
+						</p>
+						<p>
+							<hr align=left width=25% size="1" noshade />
+						</p>
+						<blockquote id=quote>
+							2 Ris International Ltd., <em>Information Technology (IT) and Telecommunication Waste in Canada.</em>
+						</blockquote>
+					</article>
+				</main>
+				<nav class="sidebar">
+					<a href="#p6" class="next-page" tabindex="-1" aria-hidden="true">Next</a>
+				</nav>
+			</article>
+		</section>
+
+		<section class="item" id="item6">
+			<a href="#p6" class="focus-page" tabindex="-1" aria-hidden="true">focus</a><label class="selected-closer" for="menuChk" aria-hidden="true">&nbsp;</label>
+			<aside id="image6" class="image">
+				<figure class="image-container"><img src="../img/foret.png" alt="foret"></figure>
+			</aside>
+			<article id="page6" class="layout">
+				<nav class="navbar">
+					<label for="menuChk" class="menuBtn" aria-label="Toggle Menu Visibility" aria-hidden="true">&#9776;</label>
+				</nav>
+				<main class="content">
+					<article>
+						<p>
+							L'utilisation des TIC comme solution &agrave; certains probl&egrave;mes environnementaux n'est peut-&ecirc;tre pas LA solution. L'utilisation du papier comme moyen de transmission de l'information est-ce moins &laquo; &eacute;colo &raquo; que les TIC? Apr&egrave;s-tout, les arbres sont des ressources renouvelables si l'exploitation des for&ecirc;ts est bien g&eacute;r&eacute;e et le papier reste biod&eacute;gradable.
+						</p>
+						<p>
+							Avant de faire pression sur les enseignants, pour qu'ils int&egrave;grent de fa&ccedil;on massive les TIC dans leur enseignement et leurs t&acirc;ches connexes, le Coll&egrave;ge devrait d'abord faire des &eacute;tudes sur les impacts sur la pollution caus&eacute;e par les ordinateurs.
+						</p>
+					</article>
+				</main>
+				<nav class="sidebar">
+					<a href="#p1" class="next-page" tabindex="-1" aria-hidden="true">Next</a>
+				</nav>
+			</article>
+		</section>
+
+		<footer class="footer">
+			Tout droits r&eacute;serv&eacute;s
+			<address>&copy; Thang David Do <a href="mailto:thangdaviddo@pasunvraicourriel.com">Contactez: Thang David Do</a> </address>
+			<address>Le style CSS est créé par &copy; 2017 James Clarke - <a href="http://www.hi.agency/">hi.agency</a></address>
+		</footer>
+
+	</div>
+</div>
+</body>
+</html>
